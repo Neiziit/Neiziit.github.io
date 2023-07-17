@@ -1,4 +1,11 @@
-/*Template Name: Fruitkha - Responsive Bootstrap4 Shop TemplateTemplate URI: Description: Bootstrap template for fruits or any other kind of shopAuthor: Imran HossainAuthor URI: https://imransdesign.com/Version: 1.0*/
+/*
+Template Name: Fruitkha - Responsive Bootstrap4 Shop Template
+Template URI: 
+Description: Bootstrap template for fruits or any other kind of shop
+Author: Imran Hossain
+Author URI: https://imransdesign.com/
+Version: 1.0
+*/
 /* -----------------------------------------------------------------------------
 
 # Base - Genral & Typography
@@ -402,10 +409,21 @@ p:last-child {
   background-color: #162133;
 }
 
-a.boxed-btn {    font-family: 'Poppins', sans-serif;    display: inline-block;    background-color: #224e99;    color: #fff;    padding: 10px 20px;
+a.boxed-btn {
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    background-color: #224e99;
+    color: #fff;
+    padding: 10px 20px;
 }
 
-a.bordered-btn {    font-family: 'Poppins', sans-serif;    display: inline-block;    background-color: #224e99;	color: #fff;    padding: 7px 20px;}
+a.bordered-btn {
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    background-color: #224e99;
+	color: #fff;
+    padding: 7px 20px;
+}
 
 a.read-more-btn {
   display: inline-block;
@@ -485,7 +503,20 @@ a.boxed-btn, a.bordered-btn, a.cart-btn {
   padding-top: 200px;
 }
 
-.breadcrumb-section:after {    position: absolute;    left: 0;    top: 0;    width: 100%;    height: 100%;    content: "";    background-color: #ff0000;    z-index: -1;    opacity: 0.8;}
+
+.breadcrumb-section::after {
+
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background-color: #015ee9;
+  z-index: -1;
+  opacity: 0.8;
+
+}
 
 /* -----------------------------------------------------------------------------
 
@@ -661,9 +692,13 @@ nav.main-menu ul ul.sub-menu li a {
   font-weight: 600;
 }
 
-nav.main-menu ul li.current-list-item > a {    color: #02aeee;}
+nav.main-menu ul li.current-list-item > a {
+    color: #02aeee;
+}
 
-nav.main-menu li:hover > a {    color: #02aeee;}
+nav.main-menu li:hover > a {
+    color: #02aeee;
+}
 
 nav.main-menu li a {
   -webkit-transition: 0.3s;
@@ -981,7 +1016,8 @@ a.boxed-btn {
 }
 
 a.boxed-btn:hover {
-  background-color: #b1f5ff;    color: #fff;
+  background-color: #b1f5ff;
+    color: #fff;
 }
 
 a.bordered-btn {
@@ -990,7 +1026,10 @@ a.bordered-btn {
   transition: 0.3s;
 }
 
-a.bordered-btn:hover {    background-color: #b1f5ff;    color: #fff;}
+a.bordered-btn:hover {
+    background-color: #b1f5ff;
+    color: #fff;
+}
 
 ul.sub-menu a {
   -webkit-transition: 0.3s;
@@ -998,7 +1037,9 @@ ul.sub-menu a {
   transition: 0.3s;
 }
 
-ul.sub-menu li:hover a {    color: #04afed;}
+ul.sub-menu li:hover a {
+    color: #04afed;
+}
 
 .single-tof-box {
   -webkit-transition: 0.3s;
@@ -1226,7 +1267,9 @@ ul.sub-menu li a {
   transition: 0.3s;
 }
 
-ul.sub-menu li:hover a {  color: #07aeec !important;}
+ul.sub-menu li:hover a {
+  color: #07aeec !important;
+}
 
 .sidebar-section ul li a {
   -webkit-transition: 0.3s;
